@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.course-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.duration-container {
+  display: flex;
+  align-items: center;
+}
+.concepts-container {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+@media screen and (max-width: 768px) {
+  .concepts-container {
+    flex-direction: column;
+  }
+}
+
+.item {
+  background-color: lightblue;
+  margin: 3px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+}
